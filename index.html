@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xvault - Setting a new standard for Xcode backups</title>
+    <link rel="icon" type="image/png" href="images/xvault-logo.png">
+    <link rel="apple-touch-icon" href="images/xvault-logo.png">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Menu Bar -->
+    <nav class="menu-bar" id="menuBar">
+        <div class="menu-container">
+            <div class="menu-logo">
+                <div class="menu-logo-icon">
+                    <img src="images/xvault-logo.png" alt="Xvault Logo">
+                </div>
+                <span class="menu-logo-text">Xvault</span>
+            </div>
+            <div class="menu-links">
+                <a href="#home" class="menu-link">Home</a>
+                <a href="#preview" class="menu-link">Preview</a>
+                <a href="#timeline" class="menu-link">Timeline</a>
+                <a href="#compression" class="menu-link">Compression</a>
+                <a href="#autobackup" class="menu-link">Auto Backup</a>
+                <a href="#pricing" class="menu-link">Pricing</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- Header Section -->
+        <header class="header" id="home">
+            <div class="logo-container">
+                <div class="logo-placeholder">
+                    <img src="images/xvault-logo.png" alt="Xvault Logo" id="logo">
+                </div>
+                <h1 class="title">Xvault</h1>
+            </div>
+            <p class="tagline">Setting a new standard for Xcode backups.</p>
+            <div class="coming-soon">
+                <a href="#" class="download-button">
+                    Download
+                    <svg class="download-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M21 15V19C21 19.5304 20.7893 20.0391 20.4142 20.4142C20.0391 20.7893 19.5304 21 19 21H5C4.46957 21 3.96086 20.7893 3.58579 20.4142C3.21071 20.0391 3 19.5304 3 19V15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M7 10L12 15L17 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M12 15V3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </a>
+            </div>
+        </header>
+
+        <!-- Early UI Screenshot Section -->
+        <section class="ui-preview" id="preview">
+            <h2 class="section-title">• Early UI screenshot</h2>
+            <div class="screenshot-container">
+                <img src="images/xcode-projects-screenshot.png" alt="Xcode Projects Interface" id="main-screenshot">
+            </div>
+        </section>
+
+        <!-- Timeline Section -->
+        <section class="timeline-section" id="timeline">
+            <div class="timeline-content">
+                <div class="timeline-image">
+                    <img src="images/timeline-screenshot.png" alt="Timeline Interface" id="timeline-screenshot">
+                </div>
+                <div class="timeline-text">
+                    <h3 class="timeline-title">Keep track, look back.</h3>
+                    <p class="timeline-description">
+                        The timeline allows developers to see the history of their project quickly and easily in one interface.
+                    </p>
+                    <p class="timeline-description">
+                        Keep track of what is what by adding comments to the timeline.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Compression Section -->
+        <section class="compression-section" id="compression">
+            <div class="compression-content">
+                <div class="compression-text">
+                    <h3 class="compression-title">Compress with no compromise.</h3>
+                    <p class="compression-description">
+                        Xvault keeps your backups small to avoid giant file sizes.
+                    </p>
+                    <p class="compression-description">
+                        We do this by backing up necessary files and storing them as a single data blob. When needed, the project will be extracted, and made into its original form.
+                    </p>
+                </div>
+                <div class="compression-stat">
+                    <div class="stat-title">up to:</div>
+                    <div class="stat-number">80<span class="percent">%</span></div>
+                    <div class="stat-label">compression</div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- Auto Backup Section -->
+        <section class="autobackup-section" id="autobackup">
+            <div class="autobackup-content">
+                <div class="autobackup-text">
+                    <h3 class="autobackup-title">Snooze, but never lose.</h3>
+                    <p class="autobackup-description">
+                        <!-- Add your description here -->
+                        Using iCloud, Xvault automatically backs up your project when you create a snapshot.
+                    </p>
+                    <p class="autobackup-description">
+                        <!-- Add additional description here -->
+                        This can be toggled for each project. Backup ensures that you always have the peace of mind that your project is safe.
+                    </p>
+                </div>
+                <div class="autobackup-image">
+                    <img src="images/autobackup-screenshot.png" alt="Automatic Backup Interface" id="autobackup-screenshot">
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section class="pricing-section" id="pricing">
+            <div class="pricing-container">
+                <div class="pricing-card free">
+                    <h4 class="pricing-title">Free</h4>
+                    <ul class="pricing-features">
+                        <li class="included"><span class="check">✓</span> Back up one project</li>
+                        <li class="included"><span class="check">✓</span> Have 5 snapshots at a time</li>
+                        <li class="included"><span class="check">✓</span> Add comments to backups</li>
+                        <li class="excluded"><span class="cross">✗</span> Unlimited projects</li>
+                        <li class="excluded"><span class="cross">✗</span> Unlimited backups</li>
+                        <li class="excluded"><span class="cross">✗</span> Automatic snapshots</li>
+                        <li class="excluded"><span class="cross">✗</span> iCloud backup</li>
+                    </ul>
+                </div>
+                <div class="pricing-card premium">
+                    <h4 class="pricing-title">$15/year</h4>
+                    <ul class="pricing-features">
+                        <li class="included"><span class="check">✓</span> Back up unlimited projects</li>
+                        <li class="included"><span class="check">✓</span> Unlimited backups</li>
+                        <li class="included"><span class="check">✓</span> Add comments to backups</li>
+                        <li class="included"><span class="check">✓</span> Automatic snapshots</li>
+                        <li class="included"><span class="check">✓</span> iCloud backup</li>
+                        <li class="more">— More features coming soon —</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bottom CTA Section -->
+        <section class="bottom-cta">
+            <a href="#" class="subtle-button">
+                Download Xvault
+                <svg class="subtle-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 15V19C21 19.5304 20.7893 20.0391 20.4142 20.4142C20.0391 20.7893 19.5304 21 19 21H5C4.46957 21 3.96086 20.7893 3.58579 20.4142C3.21071 20.0391 3 19.5304 3 19V15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M7 10L12 15L17 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M12 15V3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </a>
+        </section>
+    </div>
+
+    <script>
+        // Add smooth scrolling and fade-in animations
+        document.addEventListener('DOMContentLoaded', function() {
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('fade-in');
+                    }
+                });
+            });
+
+            document.querySelectorAll('section').forEach(section => {
+                observer.observe(section);
+            });
+
+            // Menu bar scroll behavior
+            const menuBar = document.getElementById('menuBar');
+            const header = document.querySelector('.header');
+            
+            function handleScroll() {
+                const headerBottom = header.offsetTop + header.offsetHeight;
+                const scrollPosition = window.pageYOffset;
+                
+                if (scrollPosition > headerBottom - 100) {
+                    menuBar.classList.add('visible');
+                } else {
+                    menuBar.classList.remove('visible');
+                }
+            }
+            
+            window.addEventListener('scroll', handleScroll);
+            
+            // Smooth scroll for menu links
+            document.querySelectorAll('.menu-link').forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    const offset = 80; // Account for fixed menu bar
+                    const targetPosition = target.offsetTop - offset;
+                    
+                    window.scrollTo({
+                        top: targetPosition,
+                        behavior: 'smooth'
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html> 
